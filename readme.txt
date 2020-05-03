@@ -49,5 +49,8 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.1 - May 03, 2020 =
+* License check deactivation to make the plugin work temporarily.
+
 = 1.0 - May 03, 2020 =
 * Initial Release.
