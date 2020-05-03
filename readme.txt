@@ -49,6 +49,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.2 - May 04, 2020 =
+* Fixed unwanted space at the top coming from enabling WP Toolbar in the Oxygen editor via Navigator module.
+* Fixed back to top button not being clickable reliably in the Oxygen editor.
+
 = 1.0.1 - May 03, 2020 =
 * License check deactivation to make the plugin work temporarily.
 
