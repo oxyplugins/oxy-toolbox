@@ -49,6 +49,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.3 - May 04, 2020 =
+* Fixed Templates and Pages links under Back To WP Additions not linking to the correct URLs for sites on subdomains.
+* Fixed items in the Previewing dropdown not being reachable on hover with "Dropdowns On Hover" enabled.
+
 = 1.0.2 - May 04, 2020 =
 * Fixed unwanted space at the top coming from enabling WP Toolbar in the Oxygen editor via Navigator module.
 * Fixed back to top button not being clickable reliably in the Oxygen editor.
