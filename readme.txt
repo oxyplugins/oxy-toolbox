@@ -49,6 +49,11 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.4 - May 05, 2020 =
+* Added a new module: Open External Links In A New Tab
+* Fixed undefined variable PHP notices.
+* Got rid of CSS for removing all animations and transitions for people that prefer not to see them via prefers-reduced-motion. This is apparently causing issues with Animate on Scroll and other needed animations.
+
 = 1.0.3 - May 04, 2020 =
 * Fixed Templates and Pages links under Back To WP Additions not linking to the correct URLs for sites on subdomains.
 * Fixed items in the Previewing dropdown not being reachable on hover with "Dropdowns On Hover" enabled.
