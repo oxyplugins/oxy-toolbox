@@ -49,6 +49,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.5 - May 05, 2020 =
+* Added link to the settings page in the plugins list admin page.
+* Replaced base64 string for Oxygen icons with png in the WP Toolbar when Navigator is enabled.
+
 = 1.0.4 - May 05, 2020 =
 * Added a new module: Open External Links In A New Tab
 * Fixed undefined variable PHP notices.
