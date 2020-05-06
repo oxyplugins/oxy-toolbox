@@ -49,6 +49,12 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.6 - May 07, 2020 =
+* Fixed the size of Oxygen icons appearing larger than they should be in the WP Toolbar on admin pages when certain plugins like Gravity Forms/MailPoet and Navigator are enabled.
+* Fixed Repeater components vanishing on clearing styles with Class Act module.
+* Removed antialiased font smoothing for body tag from the Essentials module. Ref.: https://usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/, https://responsivedesign.is/articles/font-smoothing/.
+* Removed "text-rendering: optimizeSpeed" for body tag from the Essentials module. Ref.: https://bocoup.com/blog/text-rendering.
+
 = 1.0.5 - May 05, 2020 =
 * Added link to the settings page in the plugins list admin page.
 * Replaced base64 string for Oxygen icons with png in the WP Toolbar when Navigator is enabled.
