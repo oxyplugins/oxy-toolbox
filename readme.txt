@@ -49,6 +49,12 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.7 ( May 08, 2020 ) =
+* Added Reading Progress Bar module.
+* Excluded styling of lists in Gutenberg from being reset. Thanks Yan Fodé Kiara.
+* Fixed styling in Navigator module to make the ruler in Oxygen editor visible again.
+* Added links to changelog, Facebook group and Support on the plugin's settings page.
+
 = 1.0.6 - May 07, 2020 =
 * Fixed the size of Oxygen icons appearing larger than they should be in the WP Toolbar on admin pages when certain plugins like Gravity Forms/MailPoet and Navigator are enabled.
 * Fixed Repeater components vanishing on clearing styles with Class Act module.
