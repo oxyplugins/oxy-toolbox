@@ -49,6 +49,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.8 ( May 10, 2020 ) =
+* Added Table of Contents module.
+* Added a link to the Feature requests Trello board in the plugin's settings page.
+
 = 1.0.7 ( May 08, 2020 ) =
 * Added Reading Progress Bar module.
 * Excluded styling of lists in Gutenberg from being reset. Thanks Yan Fodé Kiara.
