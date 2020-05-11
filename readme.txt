@@ -49,6 +49,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.0.9 ( May 11, 2020 ) =
+* Added Disable Gutenberg module.
+
 = 1.0.8 ( May 10, 2020 ) =
 * Added Table of Contents module.
 * Added a link to the Feature requests Trello board in the plugin's settings page.
