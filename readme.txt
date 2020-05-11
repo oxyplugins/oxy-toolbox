@@ -49,6 +49,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1 ( May 11, 2020 ) =
+* Disabled undo and redo in the class name fields and fixed error upon undoing/redoing after adding a class name.
+
 = 1.0.9 ( May 11, 2020 ) =
 * Added Disable Gutenberg module.
 
