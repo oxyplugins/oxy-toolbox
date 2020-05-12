@@ -49,6 +49,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.1 ( May 12, 2020 ) =
+* Added an option to disable keyboard shortcuts in the Undo module.
+* Added "Oxy Toolbox settings have been saved." success message after pressing the Save Changes button on the plugin's settings page.
+
 = 1.1 ( May 11, 2020 ) =
 * Disabled undo and redo in the class name fields and fixed error upon undoing/redoing after adding a class name.
 
