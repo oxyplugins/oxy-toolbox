@@ -49,6 +49,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.2 ( May 13, 2020 ) =
+* Added Conditions module with several conditions. More to follow.
+
 = 1.1.1 ( May 12, 2020 ) =
 * Added an option to disable keyboard shortcuts in the Undo module.
 * Added "Oxy Toolbox settings have been saved." success message after pressing the Save Changes button on the plugin's settings page.
