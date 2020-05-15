@@ -49,6 +49,15 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.3 ( May 15, 2020 ) =
+* Added the following Conditions:
+** Archive Type
+** MemberPress Membership
+** RCP Membership
+** Referrer URL Parameter
+** Language
+* Fixed undefined index notice issue introduced from the recently added success message upon saving plugin's settings.
+
 = 1.1.2 ( May 13, 2020 ) =
 * Added Conditions module with several conditions. More to follow.
 
