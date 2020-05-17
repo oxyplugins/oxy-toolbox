@@ -49,6 +49,12 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.5 ( May 18, 2020 ) =
+* Added Body Class condition.
+* Added Browser Detect condition.
+* Made the Text Edit module's textarea resizable with a min-height of 15vh.
+* Added != operator for the "Author has CPT entry" condition.
+
 = 1.1.4 ( May 16, 2020 ) =
 * Fixed an issue with adding library elements in the Undo module.
 
