@@ -49,6 +49,14 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.6 ( May 23, 2020 ) =
+* Added "Offline Mode" module. Credit: Supa Mike and David Browne.
+* Added "Media Query Buttons" editor tweak. Credit: Yan Fodé Kiara.
+* Added "CSS Tweaks" editor tweak.
+* Added "Remove min-width and min-height for empty Divs" editor tweak.
+* Added Splide script.
+* Changed display of label to inline-block from block in Essentials.
+
 = 1.1.5 ( May 18, 2020 ) =
 * Added Body Class condition.
 * Added Browser Detect condition.
