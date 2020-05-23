@@ -49,6 +49,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.7 ( May 23, 2020 ) =
+* Fixed remove media styles button not being easily clickable when "Media Query Buttons" editor tweak is enabled.
+
 = 1.1.6 ( May 23, 2020 ) =
 * Added "Offline Mode" module. Credit: Supa Mike and David Browne.
 * Added "Media Query Buttons" editor tweak. Credit: Yan Fodé Kiara.
