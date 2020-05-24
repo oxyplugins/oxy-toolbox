@@ -49,6 +49,13 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.8 ( May 24, 2020 ) =
+* Improved Rank Math module to include the parent Oxygen Template (if a Template has been selected in the RENDER PAGE USING TEMPLATE dropdown) in Rank Math's content analysis.
+* Fixed media query buttons appearing vertically on hover when Dropdowns On Hover option is enabled.
+* Added blue underline for the active media query button when Dropdowns On Hover option is enabled.
+* Replaced system font with Source Sans Pro in Offline Mode module.
+* Changed display of label from inline-block to inline in the Essentials module.
+
 = 1.1.7 ( May 23, 2020 ) =
 * Fixed remove media styles button not being easily clickable when "Media Query Buttons" editor tweak is enabled.
 
