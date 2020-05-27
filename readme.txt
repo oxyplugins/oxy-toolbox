@@ -49,6 +49,15 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.1.9 ( May 27, 2020 ) =
+* Major overhaul of Navigator module
+** added support for editing and viewing Pages and Posts.
+** added links to open in new tab for Templates and Pages.
+** added "Show ACF Field Groups" option.
+** added "Show Fluent Forms' Forms" option.
+** added "Show WooCommerce Products" option.
+** added "New" Admin Bar Menu Additions option which adds links to new ACF Field Group, Code Snippet, Fluent Forms form, Reusable under "New" menu item.
+
 = 1.1.8 ( May 24, 2020 ) =
 * Improved Rank Math module to include the parent Oxygen Template (if a Template has been selected in the RENDER PAGE USING TEMPLATE dropdown) in Rank Math's content analysis.
 * Fixed media query buttons appearing vertically on hover when Dropdowns On Hover option is enabled.
