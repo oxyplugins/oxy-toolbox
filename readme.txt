@@ -49,6 +49,15 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2 ( June 01, 2020 ) =
+* Removed the visibility of License Key from the plugin's settings page after the plugin has been licensed. Changed the 2-step process of saving + activating/deactivating to a single step.
+* Added "Wider Library Flyout Panel" editor tweak.
+* Moved Oxygen's "Edit with Oxygen" or "Edit <Template>" under the Navigator's Oxygen admin bar menu.
+* Fixed Collapse Editor button not appearing when editing a Stylesheet.
+* Fixed custom TOC title not appearing.
+* Fixed the CSS of "Expanded Oxygen Toolbar Menus" in preparation for Oxygen 3.4.
+* Removed the "Remove default padding, default margin and list styles on ul, ol elements with a class attribute" CSS code in Essentials.
+
 = 1.1.9 ( May 27, 2020 ) =
 * Major overhaul of Navigator module
 ** added support for editing and viewing Pages and Posts.
