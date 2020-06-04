@@ -49,6 +49,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.1 ( June 04, 2020 ) =
+* Improved Rank Math module to have Rank Math detect images from Oxygen in its XML sitemaps under the Images column.
+* Fixed the width of toolbar menu when "Expanded Oxygen Toolbar Menus" editor tweak is enabled.
+
 = 1.2 ( June 01, 2020 ) =
 * Removed the visibility of License Key from the plugin's settings page after the plugin has been licensed. Changed the 2-step process of saving + activating/deactivating to a single step.
 * Added "Wider Library Flyout Panel" editor tweak.
