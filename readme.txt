@@ -49,6 +49,11 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.2 ( June 07, 2020 ) =
+* Fixed Mobile Detect conditions.
+* Added WooCommerce conditions. Details: https://oxyplugins.com/doc/conditions/#WooCommerce.
+* Added links to OxyExtras' settings page (same and new tab) under Navigator's Oxygen admin bar menu item.
+
 = 1.2.1 ( June 04, 2020 ) =
 * Improved Rank Math module to have Rank Math detect images from Oxygen in its XML sitemaps under the Images column.
 * Fixed the width of toolbar menu when "Expanded Oxygen Toolbar Menus" editor tweak is enabled.
