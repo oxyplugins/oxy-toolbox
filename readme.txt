@@ -49,6 +49,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.3 ( June 08, 2020 ) =
+* Fixed fatal error on sites where WooCommerce is not active.
+* Masked the license key with dots.
+
 = 1.2.2 ( June 07, 2020 ) =
 * Fixed Mobile Detect conditions.
 * Added WooCommerce conditions. Details: https://oxyplugins.com/doc/conditions/#WooCommerce.
