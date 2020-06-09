@@ -49,6 +49,13 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.4 ( June 09, 2020 ) =
+* Added these WooCommerce conditions:
+** Selected Tag has at least One Product
+** Selected Category has at least One Product
+** At least One Featured Product
+** At least One Product on Sale
+
 = 1.2.3 ( June 08, 2020 ) =
 * Fixed fatal error on sites where WooCommerce is not active.
 * Masked the license key with dots.
