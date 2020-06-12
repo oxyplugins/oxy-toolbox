@@ -49,6 +49,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.5 ( June 12, 2020 ) =
+* Fixed license activation/deactivation issue especially after site has been migrated to a new location.
+* Fixed "At least One Product on Sale" condition.
+
 = 1.2.4 ( June 09, 2020 ) =
 * Added these WooCommerce conditions:
 ** Selected Tag has at least One Product
