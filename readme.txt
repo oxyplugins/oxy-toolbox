@@ -49,6 +49,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.6 ( June 13, 2020 ) =
+* Added a new module: Image Width and Height Size Attributes.
+
 = 1.2.5 ( June 12, 2020 ) =
 * Fixed license activation/deactivation issue especially after site has been migrated to a new location.
 * Fixed "At least One Product on Sale" condition.
