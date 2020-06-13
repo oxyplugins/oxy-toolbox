@@ -49,6 +49,12 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.7 ( June 13, 2020 ) =
+* Added the ability to save/export/import plugin's settings.
+* Fixed the URL for Isotope script.
+* Added Headroom script.
+* Updated Splide script.
+
 = 1.2.6 ( June 13, 2020 ) =
 * Added a new module: Image Width and Height Size Attributes.
 
