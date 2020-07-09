@@ -49,6 +49,14 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.8 ( July 09, 2020 ) =
+* Fixed settings export not including the nested options.
+* [Table of Contents] Wrapped the button element and div.toc-list in div.oxy-toc in the TOC HTML output.
+* [Navigator] Fixed edit post link missing for user roles according to their permissions.
+* [Navigator] Changed WP_Query to direct SQL query for the page/posts/templates listings in the WP admin bar for better performance.
+* Added function exists checks for oxygen_vsb_register_condition to prevent fatal error when Oxygen is deactivated.
+* Added function exists check for is_oxygen_edit_post_locked() to prevent fatal error with older versions of Oxygen.
+
 = 1.2.7 ( June 13, 2020 ) =
 * Added the ability to save/export/import plugin's settings.
 * Fixed the URL for Isotope script.
