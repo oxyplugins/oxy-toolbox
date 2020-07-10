@@ -49,6 +49,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.2.9 ( July 10, 2020 ) =
+* [Conditions] Added "Is Affiliate (AffiliateWP)" condition.
+* [Navigator] Fixed mis-alignment of panels in the Oxygen editor due to a bug in v1.2.8.
+
 = 1.2.8 ( July 09, 2020 ) =
 * Fixed settings export not including the nested options.
 * [Table of Contents] Wrapped the button element and div.toc-list in div.oxy-toc in the TOC HTML output.
