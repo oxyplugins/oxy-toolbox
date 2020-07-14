@@ -49,6 +49,11 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.3 ( July 14, 2020 ) =
+* [Conditions] Fixed Mobile Detect conditions.
+* [Navigator] Edit Page, Edit Post and Edit Product admin bar links now appear only on relevant views.
+* [Navigator] Fixed frontend links to view the Pages and Posts. All of them were linking to the homepage earlier.
+
 = 1.2.9 ( July 10, 2020 ) =
 * [Conditions] Added "Is Affiliate (AffiliateWP)" condition.
 * [Navigator] Fixed mis-alignment of panels in the Oxygen editor due to a bug in v1.2.8.
