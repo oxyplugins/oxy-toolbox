@@ -50,7 +50,7 @@ Valid license key should be entered for the plugin to function and to receive au
 == Changelog ==
 
 = 1.3.1 ( July 17, 2020 ) =
-* [Gutenberg] Movied "Disable Gutenberg" as an option under a new "Gutenberg" module and added another option, "Full Width Editor".
+* [Gutenberg] Moved "Disable Gutenberg" as an option under a new "Gutenberg" module and added another option, "Full Width Editor".
 * [Back To Top] Fixed Back To Top button not appearing when NextGen Gallery is active.
 
 = 1.3 ( July 14, 2020 ) =
