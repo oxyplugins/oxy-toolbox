@@ -49,6 +49,13 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.3.2 ( August 05, 2020 ) =
+* [Navigator] Added the missing "Edit Post", "Edit Page", "Edit <CPT>" etc. in the WP toolbar.
+* [Navigator] Fixed the CSS loading on the front end even when the admin bar is not showing.
+* [Conditions] Fixed these WooCommerce conditions so they only work with published products: Selected Tag has at least One Product, Selected Category has at least One Product.
+* [Conditions] Moved these WooCommerce conditions in the conditions dialog from "Woo Product" category to "WooCommerce": Selected Tag has at least One Product, Selected Category has at least One Product, At least One Featured Product, At least One Product on Sale. These conditions can be used on any page. If you are currently using one of these conditions, you will need to delete it and re-add.
+* [Conditions] Fixed warnings related to "Invalid argument supplied for foreach()...Cannot modify header information - headers already sent" in the WLM membership(s) code.
+
 = 1.3.1 ( July 17, 2020 ) =
 * [Gutenberg] Moved "Disable Gutenberg" as an option under a new "Gutenberg" module and added another option, "Full Width Editor".
 * [Back To Top] Fixed Back To Top button not appearing when NextGen Gallery is active.
