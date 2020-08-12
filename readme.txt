@@ -16,12 +16,14 @@ Current Features:
 * Functionality of Oxy Undo - adds Undo and Redo buttons; provides autosaving option.
 * Functionality of Oxy Class Act - lets you move or copy the styles associated with id or a class of any element to a new class; lets you reset all the styles for the class/id.
 * Functionality of Oxy Cleaner - lets you rename classes and remove unused ones.
+* Full screen - lets you toggle panels off and on and make code editor panel full width using a hotkey. Detached layout opens the center frame in a new tab/window.
 * Oxy Text Edit - adds a text area to view/edit text of Heading and Text components.
 * Back To Top - allows users to smoothly scroll back to the top of the page.
+* Conditions - adds additional conditions in the Oxygen editor.
 * Editor Tweaks
 	* Back To WP Additions - adds Templates and Pages menu items under “Back to WP” menu in the Oxygen editor.
 	* Compact View For Element Buttons - makes the buttons for adding elements in the left Add+ panel appear in 3 columns instead of the standard 2.
-	* Currently Editing - adds the name of current Template or Page or any other kind of entry that is currently being edited to the left of Structure button in Oxygen’s editor interface.
+	* Currently Editing - adds the name of current Template or Page or any other kind of entry that is currently being edited to the left of Structure button in Oxygen's editor interface.
 	* Dropdowns On Hover - makes Media Query, Manage Menu, Back to WP Menu and Select Box dropdowns to appear on hover.
 	* Expanded Oxygen Toolbar Menus - makes the buttons for Settings, Stylesheets, Selectors, Admin and Frontend a single click away.
 	* Open Back To WP Menu Links In New Tabs - makes links under Back to WP Menu like Admin and Frontend buttons to open in a new tab.
@@ -32,6 +34,7 @@ Current Features:
 * Add a link to go back to the Templates list screen when editing a Oxygen Template.
 JS/jQuery Scripts - registers popular scripts like Flickity, Isotope and Infinite Scroll so you can enqueue them anywhere in Oxygen.
 * Remove "Themes" and "Theme Editor" menu items from the Appearance menu in the WP admin.
+* Gutenberg - Adds options to disable Gutenberg and to make the Gutenberg editor full width.
 
 == Installation ==
 
@@ -48,6 +51,10 @@ JS/jQuery Scripts - registers popular scripts like Flickity, Isotope and Infinit
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.3.3 ( August 12, 2020 ) =
+* Added a new module: Fullscreen. Documentation: https://oxyplugins.com/doc/fullscreen/.
+* Added a new module: Move Oxygen Admin Menu Up. Documentation: https://oxyplugins.com/doc/move-oxygen-admin-menu-up/.
 
 = 1.3.2 ( August 05, 2020 ) =
 * [Navigator] Added the missing "Edit Post", "Edit Page", "Edit <CPT>" etc. in the WP toolbar.
