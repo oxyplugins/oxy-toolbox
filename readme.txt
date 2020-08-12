@@ -52,6 +52,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.3.4 ( August 12, 2020 ) =
+* [Fullscreen] Fixed "ReferenceError: keyLoaded is not defined.."
+
 = 1.3.3 ( August 12, 2020 ) =
 * Added a new module: Fullscreen. Documentation: https://oxyplugins.com/doc/fullscreen/.
 * Added a new module: Move Oxygen Admin Menu Up. Documentation: https://oxyplugins.com/doc/move-oxygen-admin-menu-up/.
