@@ -52,6 +52,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.3.5 ( August 18, 2020 ) =
+* [Conditions] Product selection dropdown has been changed to a text input for entering the product ID in "Has Product in Cart" and "Has Purchased Product" conditions to avoid performance issues due to a large number of queries.
+
 = 1.3.4 ( August 12, 2020 ) =
 * [Fullscreen] Fixed "ReferenceError: keyLoaded is not defined.."
 
