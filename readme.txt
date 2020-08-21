@@ -52,6 +52,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.3.6 ( August 21, 2020 ) =
+* [Conditions] Added HTTP Referer condition. Allows you to conditionally output elements depending on whether the provided string is present in or not present in or is exactly equal to the referring page URL. Documentation: https://oxyplugins.com/doc/conditions/#HTTPReferer.
+* [Scripts] Updated Splide's files to 2.4.11.
+
 = 1.3.5 ( August 18, 2020 ) =
 * [Conditions] Product selection dropdown has been changed to a text input for entering the product ID in "Has Product in Cart" and "Has Purchased Product" conditions to avoid performance issues on sites with a large number of products.
 
