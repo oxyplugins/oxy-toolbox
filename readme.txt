@@ -18,6 +18,7 @@ Current Features:
 * Functionality of Oxy Cleaner - lets you rename classes and remove unused ones.
 * Full screen - lets you toggle panels off and on and make code editor panel full width using a hotkey. Detached layout opens the center frame in a new tab/window.
 * Oxy Text Edit - adds a text area to view/edit text of Heading and Text components.
+* Revisions - Enables you to set the number of revisions per post.
 * Back To Top - allows users to smoothly scroll back to the top of the page.
 * Conditions - adds additional conditions in the Oxygen editor.
 * Editor Tweaks
