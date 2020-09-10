@@ -53,6 +53,25 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.3.8 ( September 10, 2020 ) =
+* Added a new "WordPress" module.
+** Disable Admin Email Check
+** Disable Auto-update UI Elements
+** Disable Auto-update Emails
+** Disable Core Sitemaps
+** Disable Sitemap Generation for Oxygen Templates
+** Disable XML-RPC
+** Disable Year Month Folders for Uploads
+** Remove Help
+** Remove Screen Options
+* [Gutenberg] Added new options.
+** Disable Editor Fullscreen by Default
+** Disable NUX
+** Disable Welcome Guide
+* [Editor Tweaks] Reversed the order of Media Query Buttons so the breakpoints appear larger to smaller from left to right.
+* [Fullscreen] Fixed KeyLoaded is not defined Uncaught ReferenceError.
+* Added expand-collapse functionality in the plugin's settings page with the modules collapsed by default.
+
 = 1.3.7 ( August 28, 2020 ) =
 * Added Revisions module.
 * [Conditions] Replaced `wp_get_referer` with `wp_get_raw_referer` for improved referer detection.
