@@ -13,17 +13,18 @@ Adds several useful and time-saving features for the Oxygen builder.
 
 Current Features:
 
-* Functionality of Oxy Undo - adds Undo and Redo buttons; provides autosaving option.
 * Functionality of Oxy Class Act - lets you move or copy the styles associated with id or a class of any element to a new class; lets you reset all the styles for the class/id.
 * Functionality of Oxy Cleaner - lets you rename classes and remove unused ones.
-* Full screen - lets you toggle panels off and on and make code editor panel full width using a hotkey. Detached layout opens the center frame in a new tab/window.
+* Fullscreen - lets you toggle panels off and on and make code editor panel full width using a hotkey. Detached layout opens the center frame in a new tab/window.
 * Oxy Text Edit - adds a text area to view/edit text of Heading and Text components.
-* Revisions - Enables you to set the number of revisions per post.
 * Back To Top - allows users to smoothly scroll back to the top of the page.
 * Conditions - adds additional conditions in the Oxygen editor.
 * Editor Tweaks
+	* Autosave - enables you to automatically press Save in the Oxygen editor and optionally in a smart manner (only when there is no keyboard and mouse activity)
 	* Back To WP Additions - adds Templates and Pages menu items under “Back to WP” menu in the Oxygen editor.
 	* Compact View For Element Buttons - makes the buttons for adding elements in the left Add+ panel appear in 3 columns instead of the standard 2.
+	* Components Panel - adds a panel of Oxygen components which appears when hovered along the top edge of Oxygen editor.
+	* CSS Tweaks - adds general CSS fixes for the conditions diaglog on smaller screens, removes the unneeded scrollbars and light gray background for range slider inputs, vertically centers the color picker circle in Firefox etc.
 	* Currently Editing - adds the name of current Template or Page or any other kind of entry that is currently being edited to the left of Structure button in Oxygen's editor interface.
 	* Dropdowns On Hover - makes Media Query, Manage Menu, Back to WP Menu and Select Box dropdowns to appear on hover.
 	* Expanded Oxygen Toolbar Menus - makes the buttons for Settings, Stylesheets, Selectors, Admin and Frontend a single click away.
@@ -36,6 +37,7 @@ Current Features:
 JS/jQuery Scripts - registers popular scripts like Flickity, Isotope and Infinite Scroll so you can enqueue them anywhere in Oxygen.
 * Remove "Themes" and "Theme Editor" menu items from the Appearance menu in the WP admin.
 * Gutenberg - Adds options to disable Gutenberg and to make the Gutenberg editor full width.
+* Adds a checkbox to disable Oxygen metabox on post types other than `page` in the plugin settings page.
 
 == Installation ==
 
@@ -52,6 +54,14 @@ JS/jQuery Scripts - registers popular scripts like Flickity, Isotope and Infinit
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.3.9 ( October 22, 2020 ) =
+* Added "Components Panel" option under Editor Tweaks module.
+* Added a checkbox to disable Oxygen metabox on post types other than `page` in the plugin settings page.
+* Added "Small to Large" suboption under Editor Tweaks > Media Query Buttons.
+* Moved Autosave option of the Undo module into Editor Tweaks.
+* Removed Undo module.
+* Added Tab as a hotkey option in Fullscreen module.
 
 = 1.3.8 ( September 10, 2020 ) =
 * Added a new "WordPress" module.
@@ -108,7 +118,7 @@ Valid license key should be entered for the plugin to function and to receive au
 
 = 1.2.9 ( July 10, 2020 ) =
 * [Conditions] Added "Is Affiliate (AffiliateWP)" condition.
-* [Navigator] Fixed mis-alignment of panels in the Oxygen editor due to a bug in v1.2.8.
+* [Navigator] Fixed misalignment of panels in the Oxygen editor due to a bug in v1.2.8.
 
 = 1.2.8 ( July 09, 2020 ) =
 * Fixed settings export not including the nested options.
@@ -147,14 +157,15 @@ Valid license key should be entered for the plugin to function and to receive au
 * Added WooCommerce conditions. Details: https://oxyplugins.com/doc/conditions/#WooCommerce.
 * Added links to OxyExtras' settings page (same and new tab) under Navigator's Oxygen admin bar menu item.
 
-= 1.2.1 ( June 04, 2020 ) =
+= 1.2.1 (June 04, 2020) =
+
 * Improved Rank Math module to have Rank Math detect images from Oxygen in its XML sitemaps under the Images column.
 * Fixed the width of toolbar menu when "Expanded Oxygen Toolbar Menus" editor tweak is enabled.
 
 = 1.2 ( June 01, 2020 ) =
 * Removed the visibility of License Key from the plugin's settings page after the plugin has been licensed. Changed the 2-step process of saving + activating/deactivating to a single step.
 * Added "Wider Library Flyout Panel" editor tweak.
-* Moved Oxygen's "Edit with Oxygen"/"Edit <Template>" to under the Navigator's Oxygen admin bar menu.
+* Moved Oxygen's "Edit with Oxygen" or "Edit <Template>" under the Navigator's Oxygen admin bar menu.
 * Fixed Collapse Editor button not appearing when editing a Stylesheet.
 * Fixed custom TOC title not appearing.
 * Fixed the CSS of "Expanded Oxygen Toolbar Menus" in preparation for Oxygen 3.4.
@@ -168,6 +179,8 @@ Valid license key should be entered for the plugin to function and to receive au
 ** added "Show Fluent Forms' Forms" option.
 ** added "Show WooCommerce Products" option.
 ** added "New" Admin Bar Menu Additions option which adds links to new ACF Field Group, Code Snippet, Fluent Forms form, Reusable under "New" menu item.
+
+Credit: inspired by Admin Page Spider plugin.
 
 = 1.1.8 ( May 24, 2020 ) =
 * Improved Rank Math module to include the parent Oxygen Template (if a Template has been selected in the RENDER PAGE USING TEMPLATE dropdown) in Rank Math's content analysis.
@@ -228,31 +241,31 @@ Valid license key should be entered for the plugin to function and to receive au
 * Fixed styling in Navigator module to make the ruler in Oxygen editor visible again.
 * Added links to changelog, Facebook group and Support on the plugin's settings page.
 
-= 1.0.6 - May 07, 2020 =
+= 1.0.6 ( May 07, 2020 ) =
 * Fixed the size of Oxygen icons appearing larger than they should be in the WP Toolbar on admin pages when certain plugins like Gravity Forms/MailPoet and Navigator are enabled.
 * Fixed Repeater components vanishing on clearing styles with Class Act module.
 * Removed antialiased font smoothing for body tag from the Essentials module. Ref.: https://usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/, https://responsivedesign.is/articles/font-smoothing/.
 * Removed "text-rendering: optimizeSpeed" for body tag from the Essentials module. Ref.: https://bocoup.com/blog/text-rendering.
 
-= 1.0.5 - May 05, 2020 =
+= 1.0.5 ( May 06, 2020 ) =
 * Added link to the settings page in the plugins list admin page.
 * Replaced base64 string for Oxygen icons with png in the WP Toolbar when Navigator is enabled.
 
-= 1.0.4 - May 05, 2020 =
+= 1.0.4 ( May 05, 2020 ) =
 * Added a new module: Open External Links In A New Tab
 * Fixed undefined variable PHP notices.
 * Got rid of CSS for removing all animations and transitions for people that prefer not to see them via prefers-reduced-motion. This is apparently causing issues with Animate on Scroll and other needed animations.
 
-= 1.0.3 - May 04, 2020 =
+= 1.0.3 ( May 04, 2020 ) =
 * Fixed Templates and Pages links under Back To WP Additions not linking to the correct URLs for sites on subdomains.
 * Fixed items in the Previewing dropdown not being reachable on hover with "Dropdowns On Hover" enabled.
 
-= 1.0.2 - May 04, 2020 =
+= 1.0.2 ( May 04, 2020 ) =
 * Fixed unwanted space at the top coming from enabling WP Toolbar in the Oxygen editor via Navigator module.
 * Fixed back to top button not being clickable reliably in the Oxygen editor.
 
-= 1.0.1 - May 03, 2020 =
+= 1.0.1 ( May 03, 2020 ) =
 * License check deactivation to make the plugin work temporarily.
 
-= 1.0 - May 03, 2020 =
+= 1.0 ( May 03, 2020 ) =
 * Initial Release.
