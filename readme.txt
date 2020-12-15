@@ -2,7 +2,7 @@
 Contributors: Gagan Goraya, Sridhar Katakam
 Tags: oxygen, oxygen builder, oxygen editor
 Requires at least: 4.9
-Tested up to: 5.4.1
+Tested up to: 5.6
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -54,6 +54,14 @@ JS/jQuery Scripts - registers popular scripts like Flickity, Isotope and Infinit
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.4.0 ( December 15, 2020 ) =
+* [Rank Math] Fixed Oxygen's shortcodes from appearing in Rank Math's XML sitemaps for images and image captions.
+* [General] "Oxy Toolbox" admin menu item no longer appears for "Edit Only" users.
+* [Conditions] Added new "Is Archive" and "Post Has Tags" conditions.
+* [Editor Tweaks] Added clickable sub-option for the Components Panel.
+* [Editor Tweaks] Set "Expanded Oxygen Toolbar Menus" option to work only for non-Edit Only admins.
+* [Fullscreen] Fixed the center frame in Oxygen editor getting zoomed in.
 
 = 1.3.9 ( October 22, 2020 ) =
 * Added "Components Panel" option under Editor Tweaks module.
