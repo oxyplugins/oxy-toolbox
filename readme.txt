@@ -59,9 +59,11 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Rank Math] Fixed Oxygen's shortcodes from appearing in Rank Math's XML sitemaps for images and image captions.
 * [General] "Oxy Toolbox" admin menu item no longer appears for "Edit Only" users.
 * [Conditions] Added new "Is Archive" and "Post Has Tags" conditions.
-* [Editor Tweaks] Added clickable sub-option for the Components Panel.
+* [Editor Tweaks] Added a sub-option for the Components Panel to appear on click instead of on hover.
 * [Editor Tweaks] Set "Expanded Oxygen Toolbar Menus" option to work only for non-Edit Only admins.
 * [Fullscreen] Fixed the center frame in Oxygen editor getting zoomed in.
+* [General] Added "oxy-toolbox-is-active" to Oxygen editor page's body classes list so other Oxygen plugins can target Oxy Toolbox' CSS.
+* [Navigator] Made "Oxygen" WP admin bar menu item not appear for Edit Only users, Replaced Role Manager and Post Type Manager menu item links under "Oxygen" with Client Control.
 
 = 1.3.9 ( October 22, 2020 ) =
 * Added "Components Panel" option under Editor Tweaks module.
