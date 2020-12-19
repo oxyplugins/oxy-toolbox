@@ -55,6 +55,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+1.4.2 (December 16, 2020)
+
+[Stylesheets Editor] Added a new module for managing user/custom Stylesheets outside Oxygen editor.
+
 = 1.4.1 ( December 16, 2020 ) =
 * [Navigator] Added "Plugins" option for quickly navigating to Installed Plugins, Plugins > Add New, Active, Inactive, Auto-updates Enabled, Auto-updates Disabled, Upload Plugin admin pages from anywhere with links to also open in new tabs for admins.
 * [Navigator] Made additions under New option only for admin users.
