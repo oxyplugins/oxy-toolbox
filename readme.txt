@@ -55,6 +55,13 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.4.4 ( January 12, 2021 ) =
+* [Stylesheets Editor] Fixed backslashes being added when quotes are present in the CSS code.
+* [Stylesheets Editor] Height now auto-expands as more code is added.
+* [Editor Tweaks] Added "Highlight Active Options" option. Details: https://wpdevdesign.com/anti-ant-mode-for-luci/.
+* [Navigator] Added "Advanced Scripts" top-level WP admin bar option.
+* [Conditions] Changed "Current CPT Author" condition to "Current Post Author" so it can now be used with not only CPTs but also built-in post types, `page` and `post`.
+
 = 1.4.3 ( December 29, 2020 ) =
 * [Navigator] Added granular control with options for enabling/disabling Pages, Posts etc. separately.
 * [Navigator] Added "Stylesheets Editor" item under "Oxygen" menu.
