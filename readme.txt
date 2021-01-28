@@ -18,7 +18,7 @@ Current Features:
 * Fullscreen - lets you toggle panels off and on and make code editor panel full width using a hotkey. Detached layout opens the center frame in a new tab/window.
 * Oxy Text Edit - adds a text area to view/edit text of Heading and Text components.
 * Back To Top - allows users to smoothly scroll back to the top of the page.
-* Conditions - adds additional conditions in the Oxygen editor.
+* Conditions - adds additional conditions incl. WooCommerce specific ones in the Oxygen editor.
 * Editor Tweaks
 	* Autosave - enables you to automatically press Save in the Oxygen editor and optionally in a smart manner (only when there is no keyboard and mouse activity)
 	* Back To WP Additions - adds Templates and Pages menu items under “Back to WP” menu in the Oxygen editor.
@@ -31,7 +31,7 @@ Current Features:
 	* Open Back To WP Menu Links In New Tabs - makes links under Back to WP Menu like Admin and Frontend buttons to open in a new tab.
 * Oxygen Navigator - adds useful links in the Toolbar for directly editing Pages and Templates with Oxygen; optionally show the toolbar in the Oxygen editor if you want. Makes direct editing of any Template or Page from anywhere literally a single click away.
 * Oxygen Rank Math Integration - includes Oxygen editor content in Rank Math's content analsys.
-* Oxygen Yoast Integration - includes Oxygen editor content in Yoast's content analsys.
+* SEOPress - generates automatic meta description from Oxygen Builder content.
 * Oxygen Essentials - enables HTML5 support for elements like the search form and adds some CSS for making essential changes like making all images responsive and fixing the WordPress Toolbar submenu links not clickable issue with sticky header.
 * Add a link to go back to the Templates list screen when editing a Oxygen Template.
 JS/jQuery Scripts - registers popular scripts like Flickity, Isotope and Infinite Scroll so you can enqueue them anywhere in Oxygen.
@@ -55,6 +55,12 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.4.5 ( January 28, 2021 ) =
+* [Conditions] Added these new WooCommerce product-specific conditions: Product Price, Stock Status and Backorders Allowed.
+* [SEOPress] A new module that generates automatic meta description from Oxygen Builder content.
+* [Scripts] Added GLightbox.
+* [General] Removed Yoast Integration module from Toolbox since it is no longer needed with the recent updates in Oxygen. WordPress content gets included in Yoast's SEO analysis out of the box in Oxygen now.
+
 = 1.4.4 ( January 12, 2021 ) =
 * [Stylesheets Editor] Fixed backslashes being added when quotes are present in the CSS code.
 * [Stylesheets Editor] Height now auto-expands as more code is added.
@@ -66,8 +72,8 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Navigator] Added granular control with options for enabling/disabling Pages, Posts etc. separately.
 * [Navigator] Added "Stylesheets Editor" item under "Oxygen" menu.
 
-= 1.4.2 (December 16, 2020) =
-* [Stylesheets Editor] Added a new module for managing user/custom Stylesheets outside Oxygen editor.
+= 1.4.2 ( December 20, 2020 ) =
+* [Stylesheets Editor] Added new module for managing user stylesheets outside Oxygen editor.
 
 = 1.4.1 ( December 16, 2020 ) =
 * [Navigator] Added "Plugins" option for quickly navigating to Installed Plugins, Plugins > Add New, Active, Inactive, Auto-updates Enabled, Auto-updates Disabled, Upload Plugin admin pages from anywhere with links to also open in new tabs for admins.
