@@ -55,7 +55,7 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
-= 1.4.6 ( January 28, 2021 ) =
+= 1.4.6 ( February 03, 2021 ) =
 * [Stylesheets Editor] Fixed an issue with stylesheets getting corrupted.
 * [Editor Tweaks] Added a new option called "Expanded Select Box Options" - Makes px, %, em etc. units, Font Weight and Tag dropdown options appear horizontally so the value can be set by a single click.
 
