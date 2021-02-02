@@ -55,6 +55,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.4.6 ( January 28, 2021 ) =
+* [Stylesheets Editor] Fixed an issue with stylesheets getting corrupted.
+* [Editor Tweaks] Added a new option called "Expanded Select Box Options" - Makes px, %, em etc. units, Font Weight and Tag dropdown options appear horizontally so the value can be set by a single click.
+
 = 1.4.5 ( January 28, 2021 ) =
 * [Conditions] Added these new WooCommerce product-specific conditions: Product Price, Stock Status and Backorders Allowed.
 * [SEOPress] A new module that generates automatic meta description from Oxygen Builder content.
