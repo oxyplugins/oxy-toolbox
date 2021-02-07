@@ -55,6 +55,15 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.4.7 ( February 07, 2021 ) =
+* [SEOPress] Fixed Oxygen's slider component getting broken (no styling). Details: https://www.facebook.com/groups/seopress/permalink/1367204456976316/
+* [Conditions] Added Locale (when using Polylang) condition under Post category. Thanks to Alexander Buzmakov for https://oxywp.com/polylang-condition-in-oxygen/.
+* [Conditions] Added "Post published during the last" (1 week/month/year) condition.
+* [Essentials] Added a fix to prevent flickering of images in Oxygen's gallery that have hover image opacity.
+* [General] Moved Export/Import to a separate tab.
+* [General] Made the Save button on the plugin settings page sticky so it is always in view.
+* [Conditions] Renamed "Language" to "Language (visitor)".
+
 = 1.4.6 ( February 03, 2021 ) =
 * [Stylesheets Editor] Fixed an issue with stylesheets getting corrupted.
 * [Editor Tweaks] Added a new option called "Expanded Select Box Options" - Makes px, %, em etc. units, Font Weight and Tag dropdown options appear horizontally so the value can be set by a single click.
