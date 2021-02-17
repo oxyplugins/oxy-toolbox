@@ -55,6 +55,13 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.4.8 ( February 17, 2021 ) =
+* [Editor Tweaks] Added "Copy Selector" option. Adds a copy button next to element's ID/class using which the ID or class can be copied to clipboard with a single click.
+* [Editor Tweaks] Added "Disable Oxygen Composite Elements" option. Details: https://www.facebook.com/groups/wpdevdesign/permalink/3090682121034715/.
+* [Navigator] Added "Remove Customize From Admin Bar in Oxygen Editor" and "Remove My Account (User Profile) From Admin Bar in Oxygen Editor" options. These admin bar menu items are generally not needed and the latter interferes/could get annoying when the cursor is taken on/around the Save button.
+* [Conditions] Added "Product in Sub Categories of" condition under Woo Product. This will enable you to output an element only if the current product is in the child categories (of any depth) of the chosen product category.
+* [Conditions] Improved these WooCommerce conditions by making them more performant: Product in Category, Product has Tag, Selected Tag has at least One Product, Selected Category has at least One Product.
+
 = 1.4.7 ( February 07, 2021 ) =
 * [SEOPress] Fixed Oxygen's slider component getting broken (no styling). Details: https://www.facebook.com/groups/seopress/permalink/1367204456976316/
 * [Conditions] Added Locale (when using Polylang) condition under Post category. Thanks to Alexander Buzmakov for https://oxywp.com/polylang-condition-in-oxygen/.
