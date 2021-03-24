@@ -18,6 +18,7 @@ Current Features:
 * Fullscreen - lets you toggle panels off and on and make code editor panel full width using a hotkey. Detached layout opens the center frame in a new tab/window.
 * Oxy Text Edit - adds a text area to view/edit text of Heading and Text components.
 * Back To Top - allows users to smoothly scroll back to the top of the page.
+* Code Completion - enables Emmet for HTML and CSS abbreviation expansion in Oxygen's code editor panels.
 * Conditions - adds additional conditions incl. WooCommerce specific ones in the Oxygen editor.
 * Editor Tweaks
 	* Autosave - enables you to automatically press Save in the Oxygen editor and optionally in a smart manner (only when there is no keyboard and mouse activity)
@@ -54,6 +55,14 @@ JS/jQuery Scripts - registers popular scripts like Flickity, Isotope and Infinit
 Valid license key should be entered for the plugin to function and to receive automatic updates.
 
 == Changelog ==
+
+= 1.4.9 ( March 24, 2021 ) =
+* [Emmet] Added a new module for writing HTML and CSS faster in code areas using Emmet, https://emmet.io/.
+* [Editor Tweaks] Added a sub option under "Copy Selector" to include # or . in the copied selector.
+* [Conditions] Added "Is Blog" condition.
+* [Navigator] Fixed links to edit Fluent Forms' forms.
+* [Editor Tweaks] Fixed a few overlapping issues with the "Expanded Select Box Options" option.
+* [Conditions] Fixed HTTP Referrer condition from returning false i.e., not outputting when there is no referrer.
 
 = 1.4.8 ( February 17, 2021 ) =
 * [Editor Tweaks] Added "Copy Selector" option. Adds a copy button next to element's ID/class using which the ID or class can be copied to clipboard with a single click.
