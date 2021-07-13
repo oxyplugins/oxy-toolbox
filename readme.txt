@@ -56,6 +56,18 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.0 ( July 13, 2021 ) =
+* [Text Edit] Disabled Oxygen's text element content field when Text Edit module in Toolbox is enabled.
+* [Offline Mode] Fixed unwanted search box appearing in the builder.
+* [Table of Contents] Fixed the issue with smooth scrolling of hash links.
+* [Conditions] Added "Date and time" (https://wpdevdesign.com/condition-date-and-time/).
+* [Conditions] Updated Country condition per https://wpdevdesign.com/how-to-get-visitor-country-in-wordpress/.
+* [Editor Tweaks] → Expanded Select Box Options: Fixed the size of the controls at Advanced > Layout > Position. Screenshot: https://d.pr/i/5XD2M7.
+* [Conditions] → WooCommerce: Removed the check for logged-in user for certain conditions so they now apply to guests as well. "Has Purchased Product" will continue to work like before i.e., only for logged-in users.
+* [Scripts] Updated Flickity, GLightbox, Splide, Headroom, Infinite Scroll.
+* [Navigator] Added a link to Swiss Knife's settings page under "Oxygen" admin bar menu item.
+* [Essentials] Enabled HTML5 Support for script and style tags. Added some rules from https://gist.github.com/jackdomleo7/55659bafe581d19cc341ef775d6a9e6b.
+
 = 1.4.9 ( March 24, 2021 ) =
 * [Emmet] Added a new module for writing HTML and CSS faster in code areas using Emmet, https://emmet.io/.
 * [Editor Tweaks] Added a sub option under "Copy Selector" to include # or . in the copied selector.
