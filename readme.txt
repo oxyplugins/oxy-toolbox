@@ -56,6 +56,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.1 ( July 15, 2021 ) =
+* [Essentials] Removed a CSS rule that resulted in elements not appearing in Safari.
+* [Editor Tweaks] → Expanded Select Box Options: Increased the left and right padding around the four-sides measure box unit selector. https://d.pr/i/pMaDWj
+
 = 1.5.0 ( July 13, 2021 ) =
 * [Text Edit] Disabled Oxygen's text element content field when Text Edit module in Toolbox is enabled.
 * [Offline Mode] Fixed unwanted search box appearing in the builder.
