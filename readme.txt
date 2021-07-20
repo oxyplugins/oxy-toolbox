@@ -56,6 +56,11 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.2 ( July 21, 2021 ) =
+* [Editor Tweaks] → Easy Panels. A new option for quicker access to the property panels. https://d.pr/i/Sd6mxH
+* [Conditions] → Mobile Detect: Fixed "Handheld" condition not working.
+* [Essentials] Removed 100% height for svg. https://www.facebook.com/groups/284626916284153?multi_permalinks=610264510387057&hoisted_section_header_type=recently_seen
+
 = 1.5.1 ( July 15, 2021 ) =
 * [Essentials] Removed a CSS rule that resulted in elements not appearing in Safari.
 * [Editor Tweaks] → Expanded Select Box Options: Increased the left and right padding around the four-sides measure box unit selector. https://d.pr/i/pMaDWj
