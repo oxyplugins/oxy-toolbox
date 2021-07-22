@@ -56,6 +56,12 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.3 ( July 22, 2021 ) =
+* [Editor Tweaks] → Easy Panels: Added sub option "Show Oxygen's Primary/Advanced tabs as well". https://d.pr/i/TEAzxQ, https://d.pr/i/dZli4X
+* [Editor Tweaks] → Easy Panels: Added blue light indicator for panels with user-set properties. https://d.pr/i/nfE9qp
+* [Editor Tweaks] → Easy Panels: Added tooltips for the panels. https://d.pr/i/dOyrNu
+* [Essentials] Removed 100% width for svg.
+
 = 1.5.2 ( July 21, 2021 ) =
 * [Editor Tweaks] → Easy Panels. A new option for quicker access to the property panels. https://d.pr/i/Sd6mxH
 * [Conditions] → Mobile Detect: Fixed "Handheld" condition not working.
