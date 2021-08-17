@@ -56,6 +56,11 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.4 ( Aug 17, 2021 ) =
+* [Text Edit] Fixed a couple of notices.
+* [Conditions] Added "User has written" condition which enables you to output elements depending on whether or not the current user viewing the page has written at least 1 item of the selected post type. Screenshot: https://d.pr/i/u5H57E.
+* [Conditions] Fixed Country condition detection. If the condition is already being used, please remove and re-apply.
+
 = 1.5.3 ( July 22, 2021 ) =
 * [Editor Tweaks] → Easy Panels: Added sub option "Show Oxygen's Primary/Advanced tabs as well". https://d.pr/i/TEAzxQ, https://d.pr/i/dZli4X
 * [Editor Tweaks] → Easy Panels: Added blue light indicator for panels with user-set properties. https://d.pr/i/nfE9qp
@@ -70,7 +75,7 @@ Valid license key should be entered for the plugin to function and to receive au
 
 = 1.5.1 ( July 15, 2021 ) =
 * [Essentials] Removed a CSS rule that resulted in elements not appearing in Safari.
-* [Editor Tweaks] → Expanded Select Box Options: Increased the left and right padding around the four-sides measure box unit selector. https://d.pr/i/pMaDWj
+* [Editor Tweaks] → Expanded Select Box Options: Increased the left and right padding around the four-sides measure box unit selector.
 
 = 1.5.0 ( July 13, 2021 ) =
 * [Text Edit] Disabled Oxygen's text element content field when Text Edit module in Toolbox is enabled.
