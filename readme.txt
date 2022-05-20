@@ -56,6 +56,11 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.5 (Jan 17, 2022) =
+[Text Edit] Fixed missing default text of components, when text edit is on.
+[Fullscreen] Fixed Shrinking of viewport.
+[Conditions] Fixed a couple of notices.
+
 = 1.5.4 ( Aug 17, 2021 ) =
 * [Text Edit] Fixed a couple of notices.
 * [Conditions] Added "User has written" condition which enables you to output elements depending on whether or not the current user viewing the page has written at least 1 item of the selected post type. Screenshot: https://d.pr/i/u5H57E.
