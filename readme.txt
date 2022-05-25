@@ -56,6 +56,12 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.6 ( May 25, 2022 ) =
+* [Conditions] Fixed these WooCommerce specific conditions: Has Empty Cart, Has Product in Cart, Product in Category, Product has Tag, Product on Sale, Product is Virtual, Product is Downloadable, Product has Image, Product in Stock, Has Cart Weight, Is at Endpoint, Has Purchased Product, Stock Status, Has Purchased Product and Has Cart Total.
+* [Scripts] Updated scripts' assets.
+* [Essentials] Cleaned up.
+* [Classes Cleaner] Updated CSS for Oxygen 4.0.
+
 = 1.5.5 (Jan 17, 2022) =
 [Text Edit] Fixed missing default text of components, when text edit is on.
 [Fullscreen] Fixed Shrinking of viewport.
