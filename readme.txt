@@ -22,16 +22,12 @@ Current Features:
 * Conditions - adds additional conditions incl. WooCommerce specific ones in the Oxygen editor.
 * Editor Tweaks
 	* Autosave - enables you to automatically press Save in the Oxygen editor and optionally in a smart manner (only when there is no keyboard and mouse activity)
-	* Back To WP Additions - adds Templates and Pages menu items under “Back to WP” menu in the Oxygen editor.
-	* Compact View For Element Buttons - makes the buttons for adding elements in the left Add+ panel appear in 3 columns instead of the standard 2.
+	* Back To WP Additions - adds Templates and Pages menu items under "Back to WP" menu in the Oxygen editor.
 	* Components Panel - adds a panel of Oxygen components which appears when hovered along the top edge of Oxygen editor.
 	* CSS Tweaks - adds general CSS fixes for the conditions diaglog on smaller screens, removes the unneeded scrollbars and light gray background for range slider inputs, vertically centers the color picker circle in Firefox etc.
 	* Currently Editing - adds the name of current Template or Page or any other kind of entry that is currently being edited to the left of Structure button in Oxygen's editor interface.
-	* Dropdowns On Hover - makes Media Query, Manage Menu, Back to WP Menu and Select Box dropdowns to appear on hover.
-	* Expanded Oxygen Toolbar Menus - makes the buttons for Settings, Stylesheets, Selectors, Admin and Frontend a single click away.
 	* Open Back To WP Menu Links In New Tabs - makes links under Back to WP Menu like Admin and Frontend buttons to open in a new tab.
 * Oxygen Navigator - adds useful links in the Toolbar for directly editing Pages and Templates with Oxygen; optionally show the toolbar in the Oxygen editor if you want. Makes direct editing of any Template or Page from anywhere literally a single click away.
-* Oxygen Rank Math Integration - includes Oxygen editor content in Rank Math's content analsys.
 * SEOPress - generates automatic meta description from Oxygen Builder content.
 * Oxygen Essentials - enables HTML5 support for elements like the search form and adds some CSS for making essential changes like making all images responsive and fixing the WordPress Toolbar submenu links not clickable issue with sticky header.
 * Add a link to go back to the Templates list screen when editing a Oxygen Template.
@@ -56,16 +52,21 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.7 ( Jul 27, 2022 ) =
+* [Editor Tweaks] Removed these redundant features: Compact View For Element Buttons, Dropdowns On Hover, Expanded Oxygen Toolbar Menus, Expanded Select Box Options.
+* [Navigator] Adjusted the CSS to remove unwanted gaps at the top and for correct height of the structure panel.
+* [Others] Removed Rank Math support since it is now built-in.
+
 = 1.5.6 ( May 25, 2022 ) =
 * [Conditions] Fixed these WooCommerce specific conditions: Has Empty Cart, Has Product in Cart, Product in Category, Product has Tag, Product on Sale, Product is Virtual, Product is Downloadable, Product has Image, Product in Stock, Has Cart Weight, Is at Endpoint, Has Purchased Product, Stock Status, Has Purchased Product and Has Cart Total.
 * [Scripts] Updated scripts' assets.
 * [Essentials] Cleaned up.
 * [Classes Cleaner] Updated CSS for Oxygen 4.0.
 
-= 1.5.5 (Jan 17, 2022) =
-[Text Edit] Fixed missing default text of components, when text edit is on.
-[Fullscreen] Fixed Shrinking of viewport.
-[Conditions] Fixed a couple of notices.
+= 1.5.5 ( Jan 17, 2022 ) =
+* [Text Edit] Fixed missing default text of components, when text edit is on.
+* [Fullscreen] Fixed Shrinking of viewport.
+* [Conditions] Fixed a couple of notices.
 
 = 1.5.4 ( Aug 17, 2021 ) =
 * [Text Edit] Fixed a couple of notices.
