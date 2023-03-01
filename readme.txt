@@ -52,6 +52,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.9 ( Mar 01, 2023 ) =
+* [Conditions] Fixed "PHP Warning: call_user_func_array() expects parameter 1 to be a valid callback.." (register_condition_user_has_written_public_only).
+
 = 1.5.8 ( Mar 01, 2023 ) =
 * [Classes Cleaner] Fixed the issue with class renaming working only on the current post.
 * [Text Edit] Fixed "Invalid argument supplied for foreach()" warning.
