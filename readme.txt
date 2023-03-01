@@ -52,6 +52,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.5.8 ( Mar 01, 2023 ) =
+* [Classes Cleaner] Fixed the issue with class renaming working only on the current post.
+* [Text Edit] Fixed "Invalid argument supplied for foreach()" warning.
+
 = 1.5.7 ( Jul 27, 2022 ) =
 * [Editor Tweaks] Removed these redundant features: Compact View For Element Buttons, Dropdowns On Hover, Expanded Oxygen Toolbar Menus, Expanded Select Box Options.
 * [Navigator] Adjusted the CSS to remove unwanted gaps at the top and for correct height of the structure panel.
