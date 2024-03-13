@@ -52,6 +52,10 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.6.0 ( Mar 13, 2024 ) =
+* [Image Width and Height Size Attributes] Fixed PHP warnings.
+* [General] Security fix.
+
 = 1.5.9 ( Mar 01, 2023 ) =
 * [Conditions] Fixed "PHP Warning: call_user_func_array() expects parameter 1 to be a valid callback.." (register_condition_user_has_written_public_only).
 
