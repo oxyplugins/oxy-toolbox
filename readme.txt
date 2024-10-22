@@ -1,9 +1,9 @@
 === Oxy Toolbox ===
 Contributors: Gagan Goraya, Sridhar Katakam
 Tags: oxygen, oxygen builder, oxygen editor
-Requires at least: 4.9
-Tested up to: 5.10
-Requires PHP: 5.6
+Requires at least: 5.2
+Tested up to: 7.0.0
+Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.6.1 ( Oct 22, 2024 ) =
+* [Conditions] Removed the usage of $global variable.
+
 = 1.6.0 ( Mar 13, 2024 ) =
 * [Image Width and Height Size Attributes] Fixed PHP warnings.
 * [General] Security fix.
@@ -64,7 +67,7 @@ Valid license key should be entered for the plugin to function and to receive au
 * [Text Edit] Fixed "Invalid argument supplied for foreach()" warning.
 
 = 1.5.7 ( Jul 27, 2022 ) =
-* [Editor Tweaks] Removed these redundant features: Compact View For Element Buttons, Dropdowns On Hover, Expanded Oxygen Toolbar Menus, Expanded Select Box Options.
+* [Editor Tweaks] Removed these redundant features: Compact View For Element Buttons, Dropdowns On Hover, Expanded Oxygen Toolbar Menus, Expanded Select Box Options and Media Query Buttons.
 * [Navigator] Adjusted the CSS to remove unwanted gaps at the top and for correct height of the structure panel.
 * [Others] Removed Rank Math support since it is now built-in.
 
