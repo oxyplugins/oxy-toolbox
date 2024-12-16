@@ -52,6 +52,9 @@ Valid license key should be entered for the plugin to function and to receive au
 
 == Changelog ==
 
+= 1.6.2 ( Dec 16, 2024 ) =
+* [Classes Cleaner] Fixed used classes being detected as un-used.
+
 = 1.6.1 ( Oct 22, 2024 ) =
 * [Conditions] Removed the usage of $global variable.
 
